@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ohana-bernedoodles/static/css/main.d725b14a.css",
-    "main.js": "/ohana-bernedoodles/static/js/main.116ff638.js",
-    "static/js/453.3c208630.chunk.js": "/ohana-bernedoodles/static/js/453.3c208630.chunk.js",
-    "index.html": "/ohana-bernedoodles/index.html",
-    "main.d725b14a.css.map": "/ohana-bernedoodles/static/css/main.d725b14a.css.map",
-    "main.116ff638.js.map": "/ohana-bernedoodles/static/js/main.116ff638.js.map",
-    "453.3c208630.chunk.js.map": "/ohana-bernedoodles/static/js/453.3c208630.chunk.js.map"
+    "main.css": "/static/css/main.d725b14a.css",
+    "main.js": "/static/js/main.600ada3f.js",
+    "static/js/453.3c208630.chunk.js": "/static/js/453.3c208630.chunk.js",
+    "index.html": "/index.html",
+    "main.d725b14a.css.map": "/static/css/main.d725b14a.css.map",
+    "main.600ada3f.js.map": "/static/js/main.600ada3f.js.map",
+    "453.3c208630.chunk.js.map": "/static/js/453.3c208630.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d725b14a.css",
-    "static/js/main.116ff638.js"
+    "static/js/main.600ada3f.js"
   ]
 }
