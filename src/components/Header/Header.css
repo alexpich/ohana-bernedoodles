@@ -34,4 +34,33 @@ nav {
 
 .nav-links a:hover {
   color: #007bff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 60px; /* Adjust this value to match your desired logo size */
+  width: auto;
+  object-fit: contain;
+}
+
+/* Make the header responsive */
+@media (max-width: 768px) {
+  .logo-image {
+    height: 40px; /* Smaller logo on mobile */
+  }
+  
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
 } 
