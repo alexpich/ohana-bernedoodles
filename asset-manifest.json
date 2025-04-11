@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ohana-bernedoodles/static/css/main.21919079.css",
+    "main.js": "/ohana-bernedoodles/static/js/main.e0c16aad.js",
+    "static/js/453.3c208630.chunk.js": "/ohana-bernedoodles/static/js/453.3c208630.chunk.js",
+    "index.html": "/ohana-bernedoodles/index.html",
+    "main.21919079.css.map": "/ohana-bernedoodles/static/css/main.21919079.css.map",
+    "main.e0c16aad.js.map": "/ohana-bernedoodles/static/js/main.e0c16aad.js.map",
+    "453.3c208630.chunk.js.map": "/ohana-bernedoodles/static/js/453.3c208630.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21919079.css",
+    "static/js/main.e0c16aad.js"
+  ]
+}
