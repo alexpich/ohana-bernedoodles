@@ -11,15 +11,15 @@ const Footer: React.FC = () => {
         </div>
         <div className="footer-section">
           <h4>Contact Us</h4>
-          <p>Email: your@email.com</p>
-          <p>Phone: (555) 555-5555</p>
-          <p>Location: Your City, State</p>
+          <p>Email: ohanabernedoodles@gmail.com</p>
+          <p>Phone: (424) 999-5366</p>
+          <p>Location: San Diego, CA</p>
         </div>
         <div className="footer-section">
           <h4>Follow Us</h4>
           <div className="social-links">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://instagram.com/ohanabernedoodles" target="_blank" rel="noopener noreferrer">Instagram</a>
           </div>
         </div>
       </div>
