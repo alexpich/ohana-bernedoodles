@@ -2,6 +2,8 @@ import React from 'react';
 import './Home.css';
 
 const Home: React.FC = () => {
+  console.log('Home component rendered');
+
   return (
     <div className="home-page">
       <div className="hero-section">
