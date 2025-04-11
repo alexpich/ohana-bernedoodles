@@ -7,7 +7,13 @@ const Header: React.FC = () => {
     <header>
       <nav>
         <div className="logo">
-          <Link to="/">Ohana Bernedoodles</Link>
+          <Link to="/">
+            <img 
+              src="/images/logo.png" 
+              alt="Ohana Bernedoodles Logo" 
+              className="logo-image"
+            />
+          </Link>
         </div>
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>
