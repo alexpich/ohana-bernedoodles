@@ -1,0 +1,49 @@
+.puppy-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.puppy-card:hover {
+  transform: translateY(-5px);
+}
+
+.puppy-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.puppy-info {
+  padding: 1.5rem;
+}
+
+.puppy-info h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.puppy-info p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.status {
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.status.available {
+  background-color: #e6f4ea;
+  color: #1e7e34;
+}
+
+.status.reserved {
+  background-color: #fbe9e7;
+  color: #d32f2f;
+} 

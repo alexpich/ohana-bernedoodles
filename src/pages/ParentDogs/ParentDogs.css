@@ -1,0 +1,25 @@
+.parent-dogs {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.parents-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.parent-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+}
+
+.parent-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+} 
