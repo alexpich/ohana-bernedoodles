@@ -1,0 +1,17 @@
+:root {
+  /* Primary Colors */
+  --primary-blue: #4FB0AE;     /* Ocean blue/teal */
+  --primary-sand: #F5E6CA;     /* Warm sand color */
+  --primary-coral: #FF8C69;    /* Coral accent */
+  
+  /* Secondary Colors */
+  --secondary-green: #7CB99F;  /* Tropical leaf green */
+  --secondary-brown: #8B5E3C;  /* Wood brown */
+  
+  /* Neutral Colors */
+  --neutral-100: #FFFFFF;
+  --neutral-200: #F8F9FA;
+  --neutral-300: #E9ECEF;
+  --neutral-700: #495057;
+  --neutral-900: #212529;
+} 

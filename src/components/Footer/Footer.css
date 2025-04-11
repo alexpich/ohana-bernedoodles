@@ -1,14 +1,16 @@
 footer {
-  background-color: #f8f9fa;
-  padding: 2rem 0;
-  margin-top: auto;
+  background-color: var(--primary-blue);
+  color: var(--neutral-100);
+  padding: 3rem 0 1rem 0;
+  margin-top: 4rem;
 }
 
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
   padding: 0 2rem;
 }
 
@@ -18,8 +20,14 @@ footer {
 }
 
 .footer-section h4 {
-  color: #333;
+  color: var(--primary-sand);
   margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.footer-section p {
+  color: var(--neutral-100);
+  margin-bottom: 0.5rem;
 }
 
 .social-links {
@@ -28,17 +36,18 @@ footer {
 }
 
 .social-links a {
-  color: #333;
+  color: var(--primary-sand);
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-  color: #007bff;
+  color: var(--neutral-100);
 }
 
 .footer-bottom {
   text-align: center;
   margin-top: 2rem;
   padding-top: 1rem;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid rgba(255,255,255,0.1);
 } 
