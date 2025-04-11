@@ -34,13 +34,15 @@ nav {
   display: flex;
   list-style: none;
   gap: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: var(--neutral-700);
+  color: var(--secondary-brown);
   font-weight: 500;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
   font-size: 1.1rem;
   padding: 0.5rem 1rem;
   border-radius: 20px;
