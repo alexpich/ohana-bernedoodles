@@ -11,7 +11,7 @@ const ContactInfo: React.FC = () => {
   const contactDetails: ContactDetail[] = [
     { icon: '📞', text: '(424) 999-5366', href: 'tel:4249995366' },
     { icon: '✉️', text: 'info@ohanabernedoodles.com', href: 'mailto:info@ohanabernedoodles.com' },
-    { icon: '📍', text: 'Los Angeles, CA' }
+    { icon: '📍', text: 'San Diego, CA' }
   ];
 
   return (
