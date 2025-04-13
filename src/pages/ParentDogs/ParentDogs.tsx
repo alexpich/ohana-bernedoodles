@@ -7,20 +7,20 @@ const ParentDogs: React.FC = () => {
       <h1>Our Parent Dogs</h1>
       <div className="parents-grid">
         <div className="parent-card">
-          <img src="/placeholder-mom.jpg" alt="Mother Dog" /> {/* Add your image path */}
-          <h2>Mother: Bella</h2>
-          <p>Bernese Mountain Dog</p>
+          <img src="/images/Tee.heic" alt="Mother Dog" /> {/* Add your image path */}
+          <h2>Mother: Tee</h2>
+          <p>F1B Bernedoodle</p>
           <ul>
             <li>Health Tested</li>
-            <li>OFA Certified</li>
+            <li>Chocolate Merle</li>
             <li>Wonderful temperament</li>
           </ul>
         </div>
         
         <div className="parent-card">
           <img src="/placeholder-dad.jpg" alt="Father Dog" /> {/* Add your image path */}
-          <h2>Father: Max</h2>
-          <p>Standard Poodle</p>
+          <h2>Father: TBD</h2>
+          <p>TBD</p>
           <ul>
             <li>Health Tested</li>
             <li>OFA Certified</li>
