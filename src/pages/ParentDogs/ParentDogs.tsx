@@ -7,8 +7,8 @@ const ParentDogs: React.FC = () => {
       <h1>Our Parent Dogs</h1>
       <div className="grid-layout parents-grid">
         <div className="card parent-card">
-          <img src="/images/Tee.heic" alt="Tee - Mother Dog" />
-          <h2>Mother: Tee</h2>
+          <img src="/images/Theodora.jpg" alt="Theodora - Mother Dog" />
+          <h2>Mother: Theodora</h2>
           <p>F1B Bernedoodle</p>
           <ul>
             <li>Health Tested</li>
