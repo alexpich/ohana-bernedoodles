@@ -23,17 +23,17 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className="contact-page">
+    <div className="page-container contact-page">
       <h1>Contact Us</h1>
       <div className="contact-content">
-        <div className="contact-info">
+        <div className="contact-info card">
           <h2>Get in Touch</h2>
           <p>Email: your@email.com</p>
-          <p>Phone: (555) 555-5555</p>
+          <p>Phone: (424) 999-5366</p>
           <p>Location: Your City, State</p>
         </div>
         
-        <form onSubmit={handleSubmit} className="contact-form">
+        <form onSubmit={handleSubmit} className="contact-form card">
           <div className="form-group">
             <label htmlFor="name">Name</label>
             <input

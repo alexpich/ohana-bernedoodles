@@ -17,9 +17,9 @@ const AvailablePuppies: React.FC = () => {
   ];
 
   return (
-    <div className="available-puppies">
+    <div className="page-container available-puppies">
       <h1>Available Puppies</h1>
-      <div className="puppies-grid">
+      <div className="grid-layout puppies-grid">
         {puppies.map((puppy, index) => (
           <PuppyCard key={index} {...puppy} />
         ))}

@@ -3,11 +3,11 @@ import './ParentDogs.css';
 
 const ParentDogs: React.FC = () => {
   return (
-    <div className="parent-dogs">
+    <div className="page-container parent-dogs">
       <h1>Our Parent Dogs</h1>
-      <div className="parents-grid">
-        <div className="parent-card">
-          <img src="/images/Tee.heic" alt="Mother Dog" /> {/* Add your image path */}
+      <div className="grid-layout parents-grid">
+        <div className="card parent-card">
+          <img src="/images/Tee.heic" alt="Tee - Mother Dog" />
           <h2>Mother: Tee</h2>
           <p>F1B Bernedoodle</p>
           <ul>
@@ -17,8 +17,8 @@ const ParentDogs: React.FC = () => {
           </ul>
         </div>
         
-        <div className="parent-card">
-          <img src="/placeholder-dad.jpg" alt="Father Dog" /> {/* Add your image path */}
+        <div className="card parent-card">
+          <img src="/placeholder-dad.jpg" alt="Father Dog" />
           <h2>Father: TBD</h2>
           <p>TBD</p>
           <ul>

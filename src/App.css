@@ -5,6 +5,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+  width: 100%;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -45,7 +47,10 @@
 
 .main-content {
   flex: 1;
-  padding: 20px;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
   background-color: var(--neutral-200);
 }
 
@@ -62,6 +67,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 button {
@@ -82,4 +89,77 @@ button:hover {
 /* Add smooth scrolling */
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+/* Base responsive text sizing */
+html {
+  font-size: 16px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  
+  .page-container {
+    padding: 1rem;
+  }
+}
+
+/* Ensure images don't overflow */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Improve touch targets on mobile */
+button, 
+a {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Remove blue highlight on mobile tap */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Global container style for consistent page widths */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Consistent grid layouts */
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+
+/* Consistent card styling */
+.card {
+  background: var(--neutral-100);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
